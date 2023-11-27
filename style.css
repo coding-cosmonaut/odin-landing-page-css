@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  height: 50vh;
+  background-color: #1f2937;
+  padding: 20px 300px 0 300px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 10px;
+}
